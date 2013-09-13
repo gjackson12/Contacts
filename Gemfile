@@ -52,3 +52,6 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'launchy'
 end
+
+gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
+                              :github => 'anjlab/bootstrap-rails'
